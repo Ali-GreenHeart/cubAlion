@@ -1,0 +1,39 @@
+input {
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    width: fit-content;
+    padding: 0px 30px;
+    background: var(--bg-gradient);
+    font-size: 32px;
+    cursor: pointer;
+    border: 0px;
+    outline: 0px;
+    border-radius: 30px;
+    color: white;
+    transform: translateY(-200%);
+}
+
+input:focus~.box #front {
+    transform: translateZ(var(--movement_onfocus));
+}
+
+input:focus~.box #back {
+    transform: translateZ(calc(var(--movement_onfocus) * -1));
+}
+
+input:focus~.box #right {
+    transform: translateX(var(--movement_onfocus)) rotateY(var(--rotate_onfocus));
+}
+
+input:focus~.box #left {
+    transform: translateX(calc(var(--movement_onfocus) * -1)) rotateY(calc(var(--rotate_onfocus) * -1));
+}
+
+input:focus~.box #top {
+    transform: translateY(calc(var(--movement_onfocus) * -1)) rotateX(calc(var(--rotate_onfocus)));
+}
+
+input:focus~.box #bottom {
+    transform: translateY(var(--movement_onfocus)) rotateX(calc(var(--rotate_onfocus) * -1));
+}

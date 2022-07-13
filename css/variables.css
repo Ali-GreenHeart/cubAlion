@@ -1,0 +1,26 @@
+:root {
+    /* essentials */
+    --primary-clr: 59, 167, 100;
+    --secondary-clr: 5, 221, 245;
+    --bg-gradient: linear-gradient(rgb(var(--primary-clr)), rgb(var(--secondary-clr)));
+    /* ---box--- */
+    --border-clr: #72c290;
+    --box-size: 300px;
+    --border-size: calc(var(--box-size) / 20);
+    /* try 300px 😛😅*/
+    /* --- images --- */
+    --front-image-url: url("./img/alion.jpg");
+    --back-image-url: url("./img/ali.jpg");
+    --top-image-url: url("./img/ali_angry.jpg");
+    --bottom-image-url: url("./img/ali_3.jpg");
+    --left-image-url: url("./img/ali1.jpg");
+    --right-image-url: url("./img/alion_cartoon.jpg");
+
+    /* --- animation ---  */
+    --animation-duration: 4s;
+
+    /* --- other --- */
+    --movement_onfocus: calc(var(--box-size) * 2 / 3);
+    --rotate_onfocus: 90deg;
+
+}

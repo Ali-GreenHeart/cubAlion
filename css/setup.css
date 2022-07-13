@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: var(--bg-gradient);
+    overflow: hidden;
+}
+
+.container {
+    perspective: 1000px;
+}
+
+.box {
+    height: var(--box-size);
+    width: var(--box-size);
+    position: absolute;
+    left: calc(var(--box-size) / 2 * -1);
+    top: calc(var(--box-size) / 2 * -1);
+    animation: rotating var(--animation-duration) infinite;
+    cursor: pointer;
+    transform-style: preserve-3d;
+}
