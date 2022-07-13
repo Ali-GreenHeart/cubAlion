@@ -9,15 +9,15 @@
     --border-size: calc(var(--box-size) / 20);
     /* try 300px 😛😅*/
     /* --- images --- */
-    --front-image-url: url("./img/alion.jpg");
-    --back-image-url: url("./img/ali.jpg");
-    --top-image-url: url("./img/ali_angry.jpg");
-    --bottom-image-url: url("./img/ali_3.jpg");
-    --left-image-url: url("./img/ali1.jpg");
+    --front-image-url: url("./img/alion_angry.jpg");
+    --back-image-url: url("./img/alion_happy.jpg");
+    --top-image-url: url("./img/alion_serious.jpg");
+    --bottom-image-url: url("./img/alion_frank.jpg");
+    --left-image-url: url("./img/alion_thoughtful.jpg");
     --right-image-url: url("./img/alion_cartoon.jpg");
 
     /* --- animation ---  */
-    --animation-duration: 4s;
+    --animation-duration: 5s;
 
     /* --- other --- */
     --movement_onfocus: calc(var(--box-size) * 2 / 3);

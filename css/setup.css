@@ -13,7 +13,7 @@ body {
     overflow: hidden;
 }
 
-.container {
+.box-container {
     perspective: 1000px;
 }
 
